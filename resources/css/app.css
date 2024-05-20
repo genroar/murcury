@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image-main{
+    background-image: linear-gradient(to bottom, #FF62001A, #FF62001A), url(../../public/assets/images/main-bg-min.jpeg) 
+}
+
+.bg-image-delivery{
+    background-image: linear-gradient(to bottom, #00000033, #40CAD01A), url(../../public/assets/images/delivery-bg.jpeg) 
+}
+
+.swiper-slide {
+    width: 80% !important;
+}
+  
+.bg-onboarding{
+    background-image: url(../../public//assets//images//onboardingmain.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
